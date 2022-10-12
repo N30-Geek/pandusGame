@@ -1,18 +1,11 @@
 #!/bin/env/python3
-
-
-__author__ = "Coded by N30-Geek"
-__name___  = "Pandu Gamr"
-__version__ = "python3.9"
-
 """
 	Ce Jeux est la version en console du jeux de pandu
-	coder par Geek Néo...
-
+	coder par Geek Néo Coolman
     Othor : Néo Coolman
     contact: @N30-Geek
-    Version : 0.1
-    
+    Version : 0.01 
+    Licence : GNU 
     Description:
 
     Ce jeux fait la simulation au jeux de pandu
@@ -22,7 +15,7 @@ __version__ = "python3.9"
 #Les modules utilisers
 
 import time, os
-from  gameLogics import *
+from core.couleur import *
 
 #===========================================================
 
@@ -30,14 +23,42 @@ from  gameLogics import *
 
 ############################################################
 
-def arbre():
+def loadingGame():
+    pass
+def messageBienvenue():
+    '''
+        Cette fonction se charge d'affache du messsage du bienvenue
+    '''
+    os.system("cls")
+    message = f"""
+{rouge}*****************************{jaune}********************************{reset}
+        {jaune}Bienvenue dans notre jeux de pandu développer par
+    Geek Néo Coolma, Alors ce jeux est fait exactement pour 
+              vous Alors amisé vous bien !!!
+        =============================================
+        {blue}  __,  _, _, _ __, _,_  _,    _,  _, _, _ __,
+         |_) /_\ |\ | | \ | | (_    / _ /_\ |\/| |_ 
+         |   | | | \| |_/ | | , )   \ / | | |  | |  
+         ~   ~ ~ ~  ~ ~   `~'  ~     ~  ~ ~ ~  ~ ~~~{jaune}
+
+        C'est jeux est en open-source, dont vous pouvez le 
+                Modifier comme bon vous semble
+                ----------------------------
+                    {verte}mon github: N30-Geek {reset}
+{rouge}*****************************{jaune}********************************{reset}      
+    """
+    for m in message:
+        print(m, end="")
+    os.system("pause")
+    os.system("cls")
+def arbreEtChoix():
     print(" ________.__")
     print("  Y      {}\t\tMenu principal".format("|")) 
     print("  |      {}\t\t============".format("O"))
-    print("  |     {}\t\t*[▶️] --[1] Play".format("/Π\\"))
-    print("  |      {}\t\t*[🆘]--[2] Help ?".format("="))
-    print("  |     {}\t\t*[ℹ️] --[?] About".format("/ \\"))
-    print("  |       \t\t*[🔚]--[Q] Exit")
+    print("  |     {}\t\t*[!] --[1] Play".format("/Π\\"))
+    print("  |      {}\t\t*[!] --[2] Help ?".format("="))
+    print("  |     {}\t\t*[!] --[?] About".format("/ \\"))
+    print("  |       \t\t*[*] --[Q] Exit")
     print("  | ")
     print(" ×Π×……°•`…`…~××•°…„„")
     print("")
@@ -141,27 +162,21 @@ logo="""
    |   | | | \| |_/ | | , )   \ / | | |  | |  
    ~   ~ ~ ~  ~ ~   `~'  ~     ~  ~ ~ ~  ~ ~~~
    """
-
 def main(logo):
-   
-   #
     print(logo)
     print("   Jouer à ce Jeux de pandus En mofe Console")
     arbre()
 
-if __name__ == "__main__":
-    main(logo)
-
-    perd1()
-    perd2()
-    perd3()
-    perd4()
-    perd5()
-    perd6()
-    perd7()
-    perd8()
-
-
-    
+def quit():
+    os.system("cls")
+    messageGo = f"""{verte}    
+        Merci d'avoir joué avec nous ce jeux alors
+    {rouge}         --------------------------------
+              {blue}   ---- BYE BYE ): ---- {reset}
+                    """
+    for i in messageGo:
+        print(i, end="")
+    time.sleep(5)
+    os.system("cls")
     
     
