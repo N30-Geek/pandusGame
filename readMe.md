@@ -1,8 +1,10 @@
 # PENDU
 ***
 Ce mini projet du jeux de **_Pendu_**, vous permet de
-jouez au avec votre pc la je fameux jeux de pandu en mode console uniquement. Il est encore à sa version simplifier dont la version **0.01**, nous allons intégrer le mode Multijoueurs en ligne. Ce projet 
-est en open-source et vous pouvez modifier, partage,
+jouez au avec votre pc la je fameux jeux de pandu en mode 
+console uniquement. Il est encore à sa version simplifier 
+dont la version **0.01**, nous allons intégrer le mode Multijoueurs 
+en ligne. Ce projet est en open-source et vous pouvez modifier, partage,
 copier, transformer le code, comme bon vous semble.
 
 _Auteur_  : **G30-Geek**
@@ -24,13 +26,38 @@ _Pour faire foncttionner le jeux vous devez  avoir ceci:_
     2. **Linux**
     3. **Termux**
 
+***
 ## Installation
 
 Voici donc comment installer le jeux:
 
 * **Linux and Termux**:
-    ```
-    $apt-get install upadate && apt-get install python3 && apt-get install git
+    1. Mise en jours du dépot et installation de python3 et git
+    ```$cd ~ && apt-get install upadate && apt-get install python3 && apt-get install git```
 
-    $git clone https://github.com/N30-Geek/panduGame/
-    ```
+    2. Clonage du projet ...
+    ```$git clone https://github.com/N30-Geek/pandus.git```
+
+    3. Allez dans votre repertoire personne et tapez la commande qui suit
+
+    ```$cd ~/pandus/```
+
+    4. Installer le module colorama pour la gestion de couleur
+    ```$pip install colorama```
+
+    5. Lencement du jeux
+    ```$python jeux_de_pandu.py```
+
+* **Pour la planteforme Windows**
+    
+    Pour la plateforme Windows, veuillez telecharger la version release. du fichier .zip ci-dessous:
+    [Version Executable Windows](./panduWin.zip): Version = 0.01
+    ``` _Dans le fichier, vous allez trouver un autre ficher zip pour le programmeur_ ```
+
+***
+
+## Pour collaborer avec pour ce projet:
+
+Si vous-voulez collaborer avec nous concernant le
+projet, veuillez intégrer notre groupe télégramme. 
+> 
