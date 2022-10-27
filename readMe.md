@@ -18,9 +18,9 @@ _Langage_ : **Python 3.10**
 ***
 ### L'aperçie de l'interface du jeux
 
-![L'apercie Menu Principal ](../core/panduGameHomePage.png): Version = 0.01
+![L'apercie Menu Principal ](https://github.com/N30-Geek/pandusGame/core/panduGameHomePage.png): Version = 0.01
 
-![L'apercie Play mode ](../core/playMode.png): Version = 0.01
+![L'apercie Play mode ](https://github.com/N30-Geek/pandusGame/core/playMode.png): Version = 0.01
 
 ***
 ## Technologie
@@ -28,9 +28,9 @@ _Langage_ : **Python 3.10**
 _Pour faire foncttionner le jeux vous devez  avoir ceci:_
 
 * __Plateforme__: 
-    1. **Windows**
-    2. **Linux**
-    3. **Termux**
+    1 **Windows**
+    2 **Linux**
+    3 **Termux**
 
 ***
 ## Installation
@@ -39,24 +39,24 @@ Voici donc comment installer le jeux:
 
 * **Linux and Termux**:
 
-    1. Mise en jours du dépot et installation de python3 et git
+    * Mise en jours du dépot et installation de python3 et git
 
     ```$cd ~ && apt-get install upadate && apt-get install python3 && apt-get install git```
 
-    2. Clonage du projet ...
+    * Clonage du projet ...
 
 
     ```$git clone https://github.com/N30-Geek/pandus.git```
 
-    3. Allez dans votre repertoire personne et tapez la commande qui suit
+    * Allez dans votre repertoire personne et tapez la commande qui suit
 
     ```$cd ~/pandus/```
 
-    4. Installer le module colorama pour la gestion de couleur
+    * Installer le module colorama pour la gestion de couleur
 
     ```$pip install colorama```
 
-    5. Lencement du jeux
+    * Lencement du jeux
 
     ```$python jeux_de_pandu.py```
 
