@@ -55,9 +55,9 @@ def arbreEtChoix():
     print(" ________.__")
     print("  Y      {}\t\tMenu principal".format("|")) 
     print("  |      {}\t\t============".format("O"))
-    print("  |     {}\t\t*[!] --[1] Play".format("/Π\\"))
-    print("  |      {}\t\t*[!] --[2] Help ?".format("="))
-    print("  |     {}\t\t*[!] --[?] About".format("/ \\"))
+    print("  |     {}\t\t*[!] --[P] Play".format("/Π\\"))
+    print("  |      {}\t\t*[!] --[?] Help ?".format("="))
+    print("  |     {}\t\t*[!] --[A] About".format("/ \\"))
     print("  |       \t\t*[*] --[Q] Exit")
     print("  | ")
     print(" ×Π×……°•`…`…~××•°…„„")
@@ -65,6 +65,17 @@ def arbreEtChoix():
 
 ##==== les fonction princiaple de 
 
+def perd0():
+    print(" __________")
+    print("  Y")
+    print("  |")
+    print("  |")
+    print("  |")
+    print("  |")
+    print("  |")
+    print("  |")
+    print(" ×Π×……°•`…`…~××•°…„„")
+    print("")
 def perd1():
     print(" __________")
     print("  Y      {}".format("|"))
@@ -178,5 +189,26 @@ def quit():
         print(i, end="")
     time.sleep(5)
     os.system("cls")
-    
-    
+    os.system("exit")
+def help(file_name):
+    os.system("notepad core/"+file_name)
+def about():
+    os.system("cls")
+    print(f"""
+
+       {verte} Jeux de pandu version : v.0.1
+        -----------------------------
+        Développer par : N30-Geek
+        Version du jeux : v0.1
+        Licence : GNU Linux (open Source)
+        PlanteForme : Wn32
+        *****************************
+    Github  : https://www.github.com/N30-Geek
+    facebook: incaming
+    Youtube : incoming
+    SoloLearn : incoming
+    ---------------------------------------
+        Notre jeux est encour de développer
+        l*********************************l
+    """)
+    os.system("pause")

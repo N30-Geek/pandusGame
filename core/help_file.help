@@ -1,0 +1,62 @@
+Jeux de Pandu dévoppé par pour faire du plaisir du passé ou profité du bonheur de présent 
+----------------------------------------------------
+Ce jeux de pandu développer par Geek Néo Coolman
+se joue en mode console; donc qu'il y a pas de souris 
+dans ce jeux.
+Vous dévez choisir l'une des actions proposer par le jeux
+Par : 
+    si vous voulez lencer le mode de jeux il vous siffurais de choisir 
+    la proposition [1]
+
+            __,  _, _, _ __, _,_  _,    _,  _, _, _ __,
+            |_) /_\ |\ | | \ | | (_    / _ /_\ |\/| |_
+            |   | | | \| |_/ | | , )   \ / | | |  | |
+            ~   ~ ~ ~  ~ ~   `~'  ~     ~  ~ ~ ~  ~ ~~~
+                    >>>  Le jeux de pandu   <<<
+
+ ________.__
+  Y      |              Menu principal
+  |      O              ============
+  |     /Π\             *[!] --[1] Play
+  |      =              *[!] --[2] Help ?
+  |     / \             *[!] --[?] About
+  |                     *[*] --[Q] Exit
+  |
+ ×Π×……°•`…`…~××•°…„„
+
+        Votre choix ici >>>>
+
+Dans la section Menu principal se trouvent les 
+proposition prédéfini que vous allez devoir choisir 
+parmis eux. Si vous choisissez la proposition [1], ce 
+qui veux-dire que vous voulez commencer à joué au pandu.
+Si par hasard vous choisissez la proposition [2],
+Ce qui veux dire que vous voulez lencer cette page
+d'aide...
+
+Les règles du jeux:
+==================
+Les reglès de pandu est très simple  dans cette 
+version de jeux, vous allez joyeux contre l'ordinateur.
+L'ordinateur va choisir un mot au hasard et afficher des 
+caractères masquer ici on utilise les underscore (_ _ _ _ _ _ ) 
+à la place de mot chosir et les nombres de caractères 
+de masquage serons au total de caractères que représente le mot à trouvé, 
+et vous-allez devoir le déviner à proposant des lettre. 
+Si la lettre proposer est bien dans le mot choisir par 
+l'ordinateur, alors la lettre sera affiche à sa positiion 
+dans le mo chosir et les mots qui ne sont pas encore 
+déviner serons toujours remplacer par 
+les underscore. Exemple avec le mot 'action' :
+    Le mot action compte bien 6 caractères autotal donc 
+    au début le mot sera affiche comme suit:
+    _ _ _ _ _ _ si par exemple je propose la lettre T,
+    le programme m'affcihe _ _ T _ _ _ ainsi de suite.
+
+Vous avez au total 8 durant le jeux, si vous proposer 
+une lettre qui ne figure pas dans le
+le mot à trouvé, le pendu commence alors à se dessiner.
+Et vous perdez 1 point. Si le bonhomme se pand 
+avant de trouvé le mot, vous perder la partie 
+l'ordinateur gagne et si non rapporter la victoire le jeux.
+======================================================
