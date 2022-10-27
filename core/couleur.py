@@ -1,6 +1,18 @@
 #coding:utf-8
 
-
+"""
+ ███▄    █  ▄████▄  
+ ██ ▀█   █ ▒██▀ ▀█  
+▓██  ▀█ ██▒▒▓█    ▄  Pandu v0.01
+▓██▒  ▐▌██▒▒▓▓▄ ▄██▒ N30-Geek
+▒██░   ▓██░▒ ▓███▀ ░ 
+░ ▒░   ▒ ▒ ░ ░▒ ▒  ░
+░ ░░   ░ ▒░  ░  ▒   
+   ░   ░ ░ ░        
+         ░ ░ ░      
+           ░ 
+    Ce script s'occupe de la gestion de toutes les couleurs utilisers dans le code.
+"""
 #=============================================
 import colorama as color
 

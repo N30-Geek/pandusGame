@@ -1,10 +1,16 @@
 #coding:utf-8
-# coded by geekNoe
-# Nom du programme: Pandu-Game
-# version : v0.01
-# Descirption:
 """
-    C'est un jeux permettant de joeux au pandu comme dans la vie réel
+ ███▄    █  ▄████▄  
+ ██ ▀█   █ ▒██▀ ▀█  
+▓██  ▀█ ██▒▒▓█    ▄  Pandu v0.01
+▓██▒  ▐▌██▒▒▓▓▄ ▄██▒ N30-Geek
+▒██░   ▓██░▒ ▓███▀ ░ 
+░ ▒░   ▒ ▒ ░ ░▒ ▒  ░
+░ ░░   ░ ▒░  ░  ▒   
+   ░   ░ ░ ░        
+         ░ ░ ░      
+           ░ 
+    Ce script est le coeur même du jeux, ce ici que j'ai écrit la logique principale du jeux.
 """
 #================================================
 

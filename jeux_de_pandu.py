@@ -1,15 +1,23 @@
 #coding:utf-8
-# coded by geekNoe
-# Nom du programme: Pandu-Game
-# version : v0.01
-# Descirption:
 """
-    C'est un jeux permettant de joeux au pandu comme dans la vie réel
+ ███▄    █  ▄████▄  
+ ██ ▀█   █ ▒██▀ ▀█  
+▓██  ▀█ ██▒▒▓█    ▄  Pandu v0.01
+▓██▒  ▐▌██▒▒▓▓▄ ▄██▒ N30-Geek
+▒██░   ▓██░▒ ▓███▀ ░ 
+░ ▒░   ▒ ▒ ░ ░▒ ▒  ░
+░ ░░   ░ ▒░  ░  ▒   
+   ░   ░ ░ ░        
+         ░ ░ ░      
+           ░ 
+    
+    Ce script contient les codes principale d'appel 
+    des du lencement et d'appelle de toutes les fonctions et méthode du jeux.
 """
 #
 #================================================
 
-import os, time
+import os, time, sys
 from core.source import *
 from core.gameLogics import *
 from core.couleur import *
@@ -44,7 +52,10 @@ def main():
             word = pd.choiceWord()
             pd.gameLoop(word, list_pandu)
         elif (choix == "?"):
-            help("help_file.help")
+            if(sys.platform == "win32"):
+                help("help_file.help", 'notepad')
+            if(sys.platform == "linux"):
+                help("help_file.help", 'cat ')
         elif (choix == "a" or choix == "A"):
             about()
         elif (choix == "Q" or choix == "q"):

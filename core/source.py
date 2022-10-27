@@ -1,5 +1,16 @@
 #!/bin/env/python3
 """
+ ███▄    █  ▄████▄  
+ ██ ▀█   █ ▒██▀ ▀█  
+▓██  ▀█ ██▒▒▓█    ▄  Pandu v0.01
+▓██▒  ▐▌██▒▒▓▓▄ ▄██▒ N30-Geek
+▒██░   ▓██░▒ ▓███▀ ░ 
+░ ▒░   ▒ ▒ ░ ░▒ ▒  ░
+░ ░░   ░ ▒░  ░  ▒   
+   ░   ░ ░ ░        
+         ░ ░ ░      
+           ░ 
+
 	Ce Jeux est la version en console du jeux de pandu
 	coder par Geek Néo Coolman
     Othor : Néo Coolman
@@ -190,8 +201,8 @@ def quit():
     time.sleep(5)
     os.system("cls")
     os.system("exit")
-def help(file_name):
-    os.system("notepad core/"+file_name)
+def help(file_name, textEdit):
+    os.system(textEdit +"core/"+file_name)
 def about():
     os.system("cls")
     print(f"""
