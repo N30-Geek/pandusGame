@@ -20,7 +20,7 @@ from core.couleur import *
 #===========================================================
 
 # implémentation de fonction principale du jeu
-
+# slack edit passfile: DownloadDevTools.ir
 ############################################################
 
 def loadingGame():
